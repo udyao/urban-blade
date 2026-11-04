@@ -4,7 +4,61 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0e0e0d">
-<title>Urban Blade — мужская парикмахерская в Красноярске</title>
+<title>Барбершоп Urban Blade — мужская стрижка в Красноярске, Северный</title>
+<meta name="description" content="Мужская стрижка 1300 ₽, удлинённый дизайн 1300 ₽, оформление бороды 900 ₽. Северный, ул. Мате Залки, 7. Ежедневно 11:00–20:00. Онлайн-запись и −10% на первую стрижку.">
+<link rel="canonical" href="https://urban-blade.ru/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Urban Blade">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="https://urban-blade.ru/">
+<meta property="og:title" content="Барбершоп Urban Blade — мужская стрижка в Красноярске">
+<meta property="og:description" content="Стрижка 1300 ₽, борода 900 ₽, −10% на первую стрижку. Северный, Мате Залки, 7. Онлайн-запись.">
+<meta property="og:image" content="https://urban-blade.ru/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarberShop",
+  "name": "Urban Blade",
+  "description": "Мужская парикмахерская (барбершоп) в Северном: мужские стрижки, удлинённый дизайн, оформление бороды.",
+  "url": "https://urban-blade.ru/",
+  "logo": "https://urban-blade.ru/icon-512.png",
+  "image": "https://urban-blade.ru/og.png",
+  "telephone": "+7 964 411-56-53",
+  "priceRange": "900–1300 ₽",
+  "currenciesAccepted": "RUB",
+  "paymentAccepted": "Наличные, перевод с карты",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Мате Залки, 7, 2 этаж",
+    "addressLocality": "Красноярск",
+    "addressRegion": "Красноярский край",
+    "addressCountry": "RU"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "11:00",
+    "closes": "20:00"
+  }],
+  "sameAs": ["https://2gis.ru/krasnoyarsk/firm/70000001117832206"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Услуги",
+    "itemListElement": [
+      { "@type": "Offer", "price": "1300", "priceCurrency": "RUB", "itemOffered": { "@type": "Service", "name": "Мужская стрижка" } },
+      { "@type": "Offer", "price": "1300", "priceCurrency": "RUB", "itemOffered": { "@type": "Service", "name": "Удлинённый дизайн" } },
+      { "@type": "Offer", "price": "900", "priceCurrency": "RUB", "itemOffered": { "@type": "Service", "name": "Оформление бороды" } }
+    ]
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Oswald:wght@500;600&display=swap&subset=cyrillic" rel="stylesheet">
@@ -47,8 +101,9 @@ img { display: block; max-width: 100%; }
 
 /* ---------- Header ---------- */
 .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; display: flex; align-items: center; justify-content: space-between; gap: 12px; height: 60px; background: rgba(14, 14, 13, .92); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-.mark { font: 600 22px/1 var(--display); letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; }
-.mark span { color: var(--gold); }
+.mark { display: inline-flex; align-items: center; gap: 10px; font: 600 22px/1 var(--display); letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; }
+.mark svg { width: 30px; height: 30px; flex: none; }
+.mark-text span { color: var(--gold); }
 .nav { display: none; }
 .top-state { display: inline-flex; align-items: center; gap: 8px; color: var(--cream); }
 .top-state i, .status i { width: 8px; height: 8px; border-radius: 50%; background: #7fbf6a; flex: none; }
@@ -190,7 +245,7 @@ img { display: block; max-width: 100%; }
 
 <div class="wrap">
   <header class="top">
-    <a class="mark" href="#top">Urban <span>Blade</span></a>
+    <a class="mark" href="#top"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" fill="#0e0e0d"/><g fill="none" stroke="#b9a25c" stroke-width="7" transform="translate(1.25 0)"><path d="M10 16V36a9 9 0 0 0 18 0V16"/><path d="M38 16V48.5M38 19.5H44a6.25 6.25 0 0 1 0 12.5H38M38 32H45a6.5 6.5 0 0 1 0 13H38"/></g><path d="M3 54 61 10" stroke="#0e0e0d" stroke-width="3"/></svg><span class="mark-text">Urban <span>Blade</span></span></a>
     <nav class="nav" aria-label="Разделы">
       <a href="#services">Услуги</a>
       <a href="#offer">Скидка</a>
@@ -215,7 +270,7 @@ img { display: block; max-width: 100%; }
       </figcaption>
     </figure>
     <div class="lead">
-      <p>Мужские стрижки, удлинённый дизайн и оформление бороды. Северный, улица Мате Залки, 7.</p>
+      <p>Барбершоп в Северном: мужские стрижки, удлинённый дизайн и оформление бороды. Улица Мате Залки, 7, Советский район.</p>
       <div class="cta">
         <a class="btn" href="#visit">Записаться <span class="arrow">↗</span></a>
         <div class="cta-row">
